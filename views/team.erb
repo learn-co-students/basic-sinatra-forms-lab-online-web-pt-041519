@@ -5,7 +5,16 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
+
+    <h1>Team Name: <%=@name%></h1>
+    <ul>
+        <li>Coach: <%=@coach%></li>
+        <li>Point Guard: <%=params[:pg]%></li>
+        <li>Shooting Guard: <%=params[:sg]%></li>
+        <li>Power Forward: <%=params[:pf]%></li>
+        <li>Small Forward: <%=params[:sf]%></li>
+        <li>Center: <%=params[:c]%></li>
+    </ul>
 
 
  </body>
